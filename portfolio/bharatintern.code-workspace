@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../andal"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "andal"
+	}
+}
