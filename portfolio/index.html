@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+
+    
+    
     
 </head>
 <body>
@@ -14,170 +16,141 @@
             <h3>Andal Vaishali</h3>
         </div>
         <nav>
-            <ul  class="nav-link">
-                <li id="home"><a href="#home">Home</a></li>
-                <li id="about"><a href="#about">About me</a></li>
-                <li id="service"><a href="#service">Services</a></li>
-                <li id="skill"><a href="#skill">Skills</a></li>
-                <li id="project"><a href="#project">Project</a></li>
-                <li id="contact"><a href="#contact">Contact</a></li>
+            <ul  class="nav-link" class="translate">
+                <li ><a href="#home">Home</a></li>
+                <li ><a href="#about">About me</a></li>
+                <li ><a href="#explore">Explore</a></li>
+                <li ><a href="#skill">Skills</a></li>
+                <li ><a href="#project">Project</a></li>
+                <li ><a href="#contact">Contact</a></li>
             </ul>
         </nav>  
     </header>
-    <main>
-        <div class="home">
+    <!--HOME Section-->>
+        <div class="home" id="home" >
             <div class="image">
-                <img src="https://source.unsplash.com/random/200x200/?girl:1"  alt="vaishali">
+                <img src="D:\andal\images\vaishu.jpeg"  alt="vaishali">
             </div>
             <div class="description">
                 <h1>Hi I'm Vaishali</h1>
-                <h2> Software Developer</h2>
+                <h2 class="typing">FullStack Developer</h2>
                 <p>"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do."</p>
             </div>
             <div id="download">
-                <button>Download</button>
+                <button id="downloadButton"><a href="https://drive.google.com/file/d/11FhfMI7uoNP9dDBSBU0w-Qflo-pfBJyx/view?usp=drivesdk" download=""> Download</a></button>
             </div>
         </div>
-        <hr>
-        <div class="about">
+        <!--ABOUT Section-->
+        <div class="about" id="about" >
             <h1>ABOUT <span>ME</span></h1>
-            <h3>Software Developer</h3>
+            <h3>Fullstack Developer</h3>
             <p>Hello! I'm a pre-final year B.E. Computer Science student at Chettinad College of Engineering and Technology, passionate about web development, full-stack development, and machine learning. With a focus on delivering impactful results, my academic journey has provided a strong foundation, and I'm eager to apply my skills in real-world projects. Beyond academics, I'm driven by continuous learning, embracing new responsibilities, and exploring the latest technologies. Open to new opportunities and collaborations, feel free to connect with me on LinkedIn or drop me an email. Looking forward to creating something awesome together!</p>
-            <div id="education">
-                <h3>Education</h3>
-                <h4>Bachelor of Computer Science Engineering   2021-Present</h4>
-                <span>Chettinad College of Engineering &Technology,Karur</span>
-                <h4>HSLC</h4>
-                <span>Nirmala Girl’s Higher Secondary School,Madurai</span>
+            <div class="col">
+                <div class="profiles">
+                    <span>Email:</span>
+                    <p>andalvaishali2004@gmail.com</p>
+                    
+                </div>
+                <div class="profiles">
+                    <span>Phone Number:</span>
+                    <p>8148068802</p>
+                </div>
+                <div class="profiles">
+                    <span>Age:</span>
+                    <p>20</p>
+                    
+                </div>
+                <div class="profiles">
+                    <span>Address:</span>
+                    <p>Madurai</p>
+                </div>
             </div>
-        </div><hr>
-        <div class="service">
-            <h1>SERVICES</h1>
+
+        </div>
+        <!--EXPLORE Section-->
+        <div class="service" id="explore" >
+            <h1>EXPLORE</h1>
             <div class="servcol">
-                <div class="workshop">
+                <div class="workshop" >
                     <h2>Workshop</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem, velit aliquid quisquam suscipit ullam placeat ut dolore, blanditiis fuga deserunt voluptate dignissimos optio pariatur numquam. Excepturi, vitae inventore? Soluta.</p>
+                    <div class="plus">
+                        <h1 class="rotate" data-aos="zoom-in-down">3+</h1>
+                        <p>I have actively participated in a series of workshops, one hosted at NIT Trichy and another at IIT Madras, the latter in collaboration with Techobytes, Chennai.</p>
+                    </div>
                    
                 </div> 
-                <div class="course">
+                <div class="course" data-aos="zoom-in">
                     <h2>Courses</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorem placeat atque modi aspernatur cum sunt corporis, molestiae nulla vero aut dolor esse earum labore optio explicabo asperiores temporibus fuga!</p>
+                    <div class="plus">
+                        <h1 class="rotate" data-aos="zoom-in-down">5+</h1>
+                        <p>I have successfully completed courses in Python for Beginners from Simplilearn, as well as HTML, CSS, and JavaScript. I have implemented my gained knowledge by developing various projects.</p>
+                    </div>
                 </div>
-                <div class="certificate">
+                <div class="certificate" >
                     <h2>Certificate</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis doloribus porro saepe quod nostrum cumque magni pariatur! Officia ut totam quis tempore, eaque libero aperiam odio illum, sint, cum possimus</p>
-                    <div class="certificate-card" onclick="toggleDetails(this)">
-                        <img src="certificate1.jpg" alt="Certificate 1">
-                        <div class="description">
-                            <h3>Certificate Title 1</h3>
-                            <p class="details">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Nullam consectetur leo sit amet semper lacinia.
-                            </p>
-                        </div>
+                    <div class="plus">
+                        <h1 class="rotate" >7+</h1>
+                        <p>I am proud to hold certifications in Responsive Web Design and JavaScript Algorithms and Data Structures from freeCodeCamp, which serve as a testament to my proficiency in these crucial areas of web development.  </p>
                     </div>
-                    
-                    <div class="certificate-card" onclick="toggleDetails(this)">
-                        <img src="certificate2.jpg" alt="Certificate 2">
-                        <div class="description">
-                            <h3>Certificate Title 2</h3>
-                            <p class="details">
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <!-- Add more c-->
                 </div>
             </div>
        </div>
-       <hr>
-        <div class="skill">
-            <h1>Skills</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius excepturi assumenda, mollitia, reiciendis sed, similique error sapiente illo praesentium voluptate iste numquam accusantium alias necessitatibus dolor quisquam nostrum a! Veritatis dicta omnis eveniet ipsam cum, sequi atque? Pariatur, enim neque.</p>
-                <h3>HTML</h3>
-                <div class="front">
-                    <div class="skills html">90%</div>
+       <!--SKILL Section-->
+        <div class="skills" id="skill" >
+            <h1>SKILLS</h1>
+            <p>As a passionate software developer, I possess a diverse skill set with expertise in web development, full-stack development, and machine learning. Proficient in languages such as HTML, CSS, JavaScript, PHP, and Python, I bring creativity and innovation to every project. With a strong foundation in computer science and a keen interest in exploring the latest technologies, I am committed to delivering impactful solutions. From crafting responsive and visually appealing front-end designs to developing robust back-end systems and implementing cutting-edge machine learning algorithms, I thrive on challenges and am dedicated to continuous learning and growth. Let's collaborate to create something extraordinary!</p>
+                
+                <div class="skills-bg" >
+                    <h3>HTML</h3>
+                    <div class="skill-item">
+                        <div class="skill-bar html"  style="--skill-percent: 90%;"></div>
+                    </div>
+                    <h3>CSS</h3>
+                    <div class="skill-item">
+                        <div class="skill-bar css" style="--skill-percent: 80%;"></div>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-item">
+                        <div class="skill-bar js" style="--skill-percent: 70%;"></div>
+                    </div>
+                    <h3>PHP</h3>
+                    <div class="skill-item">
+                        <div class="skill-bar php" style="--skill-percent: 50%;"></div>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-item">
+                        <div class="skill-bar python" style="--skill-percent: 40%;"></div>
+                    </div>
+                    <h3>MySQL</h3>
+                    <div class="skill-item">
+                        <div class="skill-bar sql" style="--skill-percent: 40%;"></div>
+                    </div>
                 </div>
-                <h3>CSS</h3>
-                <div class="front">
-                    <div class="skills css">80%</div>
-                </div>
-                <h3>JavaScript</h3>
-                <div class="front">
-                    <div class="skills js">70%</div>
-                </div>
-                <h3>PHP</h3>
-                <div class="front">
-                    <div class="skills php">50%</div>
-                </div>
-                <h3>Python</h3>
-                <div class="front">
-                    <div class="skills python">40%</div>
-                </div>
-                <h3>MySQL</h3>
-                <div class="front">
-                    <div class="skills mysql">40%</div>
-                </div>
-        </div><hr>
-        <div class="project">
-             <h1>Projects</h1>
+        </div>
+        <div class="project" id="project" >
+             <h1>PROJECT</h1>
             <div class="projectdiv">
                 <div class="machine-learning">
-                    <img src="https://source.unsplash.com/random/200x200/?nature:1" alt="machinelearning" height="200px" width="200px">
-                    <h3><a href="https://github.com/" target="_blank" title="Visit Example Website">Machine Learning</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam est inventore alias dolorum labore impedit perferendis saepe porro eaque ullam.</p>
-                    
+                    <img src="images/machine.jpeg" alt="machinelearning" height="200px" width="200px" class="animated" data-aos="fade-up">
+                    <h3><a href="https://github.com/VaishaliUmapathy/python" target="_blank">Machine Learning</a></h3>
+                    <p>I developed a machine learning model to predict the lifespan of mobile phones based on key features and parameters including battery capacity, storage, repair history, and model specifications. The primary objective was to offer valuable insights to both consumers and manufacturers, facilitating informed decision-making processes regarding mobile device purchases, upgrades, and sustainability initiatives.</p>
                 </div>
                 <div class="machine-learning">
-                    <img src="https://source.unsplash.com/random/200x200/?nature:1" alt="machinelearning" height="200px" width="200px">
-                    <h3><a href="https://github.com/" target="_blank" title="Visit Example Website">Web Developement</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam est inventore alias dolorum labore impedit perferendis saepe porro eaque ullam.</p>
+                    <img src="images/webs.jpeg" alt="machinelearning" height="200px" width="200px"  class="animated" >
+                    <h3><a href="https://github.com/VaishaliUmapathy/bharatintern" target="_blank">Frontend Developer</a></h3>
+                    <p> I curated a collection of frontend web development projects aimed at showcasing a diverse range of interactive and engaging applications. Each project demonstrates my proficiency in frontend technologies and design principles, offering users unique and immersive experiences across various domains.</p>
                 </div>
                 <div class="machine-learning">
-                    <img src="https://source.unsplash.com/random/200x200/?nature:1" alt="machinelearning" height="200px" width="200px">
-                    <h3><a href="https://github.com/" target="_blank" title="Visit Example Website">Full Stack</a></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam est inventore alias dolorum labore impedit perferendis saepe porro eaque ullam.</p>
+                    <img src="images/fullstack.jpeg" alt="machinelearning" height="200px" width="200px" class="animated" >
+                    <h3><a href="https://github.com/VaishaliUmapathy/travel-agency" target="_blank">FullStack</a></h3>
+                    <p>I am building a comprehensive Travel Tourist Management System aimed at facilitating seamless travel planning and booking experiences for users. Leveraging a combination of frontend and backend technologies, the system offers a range of features and functionalities to cater to the diverse needs of travelers and tourists.</p>
                 </div>
-                <!--
-                <div class="machine-learning">
-                    <img src="https://source.unsplash.com/random/200x200/?nature:1" alt="machinelearning" height="200px" width="200px">
-                    <h3>loremoiuy</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam est inventore alias dolorum labore impedit perferendis saepe porro eaque ullam.</p>
-                </div>
-                <div class="machine-learning">
-                    <img src="https://source.unsplash.com/random/200x200/?nature:1" alt="machinelearning" height="200px" width="200px">
-                    <h3>Machine Learning</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam est inventore alias dolorum labore impedit perferendis saepe porro eaque ullam.</p>
-                </div>
-                <div class="machine-learning">
-                    <img src="https://source.unsplash.com/random/200x200/?nature:1" alt="machinelearning" height="200px" width="200px">
-                    <h3>Machine Learning</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam est inventore alias dolorum labore impedit perferendis saepe porro eaque ullam.</p>
-                </div>-->
-            </div>
-        </div><hr>
-        <!--
-        <div class="extra">
-            <div class="extradiv">
-                <div class="works">
-                    <img src="https://source.unsplash.com/random/200x200/?nature:1" alt="machinelearning" height="200px" width="200px">
-                    <h3>Introduction to Computational Social Science with Python</h3>
-                    <p>this program provides me the hands on experience in leveraging python for analyzing social phenomena.</p>
-                </div>
-                <div class="works">
-                    <img src="https://source.unsplash.com/random/200x200/?nature:1" alt="machinelearning" height="200px" width="200px">
-                    <h3>Artificial Intelligence</h3>
-                    <p>this workshop provides me valuable practical insights into the latest advancements in AI.</p>
-                </div>
+                
             </div>
         </div>
-    -->
-
         
-        <section class="contact">
-            <h1>Contact Me</h1>
+        <section class="contact" id="contact" >
+            <h1>CONTACT ME</h1>
             <form>
                 <label>Name</label>
                 <input type="text">
@@ -189,32 +162,33 @@
                 <textarea></textarea>
             </form>
         </section> 
-        <section id="space">
-
-        </section>
-        <!--Footer -->
         
-            <footer>
+        <!--Footer section-->
+            <footer class="footer">
                 <div class="footer-content">
                     <p>&copy; 2024 Vaishali. All rights reserved.</p>
+                    <p>Portfolio developed by Vaishaliumapathy</p>
                     <div class="social-icons">
-                         
-                        <a href="#" target="_blank"><img src="icon-linkedin.png" alt="LinkedIn"></a>
-                        <a href="#" target="_blank"><img src="icon-twitter.png" alt="Twitter"></a>
-                        <a href="#" target="_blank"><img src="icon-github.png" alt="GitHub"></a>
+                        <!-- Add your social media icons and links here -->
+                        <a href="https://www.linkedin.com/in/vaishaliumapathy/" target="_blank"><img src="D:\andal\images\linkedin.png" alt="LinkedIn"></a>
+                        <a href="www.linkedin.com/in/vaishaliumapathy" target="_blank"><img src="D:\andal\images\x.png" alt="Twitter"></a>
+                        <a href="https://github.com/VaishaliUmapathy" target="_blank"><img src="D:\andal\images\github.png" alt="GitHub"></a>
+                    </div>
+                    <div class="footer-section">
+                        
+                        <a href="#home">Home</a>
+                        <a href="#explore">Explore</a>
+                        <a href="#about">About</a>
+                        <a href="#skill">Skills</a>
+                        <a href="#project">Projects</a>
+                        <a href="#contact">Contact</a>
+
                     </div>
                 </div>
             </footer>
-        
-        
-        
-        
-        </body>
-        </html>
-        
-        </section>   
+    
     </main>
-    <script src="script.js"></script>
+    
 </body>
 </html>
 
